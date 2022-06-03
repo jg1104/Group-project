@@ -1,0 +1,63 @@
+[{
+    "id": 1,
+    "content": "Hi, are you ready to find the right laptop for you. Click continue to proceed",
+    "whatQuery": "Question",
+    "pickone": [{
+      "content": "Continue",
+      "afterChatNum": 2
+    }]
+  },
+  {
+    "id": 2,
+    "content": "Before we proceed, Do you use a windows operating system?",
+    "whatQuery": "Question",
+    "pickone": [{
+        "content": "Yes",
+        "afterChatNum": 4
+      },
+      {
+        "content": "No",
+        "afterChatNum": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "Sorry, this bot is only for windows devices. Click the button below if you change your mind?",
+    "whatQuery": "Question",
+    "pickone": [{
+      "content": "Okay, i will try windows.",
+      "afterChatNum": 4
+    }]
+  },
+  {
+    "id": 4,
+    "content": "Perfect, Windows operating system is the best.",
+    "whatQuery": "Text",
+    "afterChatNum": 5
+  },
+  {
+    "id": 5,
+    "content": "What storage capacity would you like?",
+    "whatQuery": "Question",
+    "pickone": [{
+        "content": "500gb",
+        "afterChatNum": 6
+      },
+      {
+        "content": "1TB",
+        "afterChatNum": 7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "content": "I would recommend you get the Lenovo ThinkBook Gen 2 500gb,.",
+    "whatQuery": "Text"
+  },
+  {
+    "id": 7,
+    "content": "Great choice, a suitable laptop for you will be, Dell inspiron 3510 15inch, it has great storage capacity.",
+    "whatQuery": "Text"
+  }
+]

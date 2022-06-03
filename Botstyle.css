@@ -1,0 +1,117 @@
+body {
+  background: cornflowerblue;
+}
+#Chatsetup {
+  background-color: goldenrod;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 50px;
+  width: 300px;
+  height: 120px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: none;
+}
+@media (min-width: 500px) {
+  .container {
+    background-color: goldenrod;
+    border-radius: 15px;
+    width: 500px;
+  }
+}
+.chatLoading {
+  background-color: white;
+  will-change: transform;
+  width: auto;
+  border-radius: 50px;
+  padding: 10px;
+  display: table;
+  margin: 0;
+  margin-left: 10px;
+  position: relative;
+}
+#messagePattern {
+  visibility: hidden;
+  display: block;
+  background: #fff;
+  width: 400px;
+  height: auto;
+  margin: 10px auto;
+  padding: 20px 0 0px 0px;
+}
+.pickoneDesign {
+  display: flex;
+  justify-content: right;
+}
+ul.botFramestyle {
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+  padding: 20px;
+  list-style: none;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul.botFramestyle>li .content {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px 15px;
+  line-height: 20px;
+}
+ul.botFramestyle>li.bot .content {
+  background-color: cornflowerblue;
+  color: black;
+  float: left;
+}
+ul.botFramestyle>li {
+  clear: both;
+  max-width: 80%;
+  box-sizing: border-box;
+}
+ul.botFramestyle>li.user {
+  float: right;
+}
+ul.botFramestyle>li.bot {
+  float: left;
+}
+ul.botFramestyle>li.user .content {
+  background-color: goldenrod;
+}
+ul.botFramestyle>li.pickone {
+  margin-top: 10px;
+  list-style: none;
+  max-width: 100%;
+  width: 100%;
+  float: left;
+  text-align: right;
+}
+ul.botFramestyle>li.pickone>ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+ul.botFramestyle>li.pickone>ul>li {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: 1px solid cornflowerblue;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
